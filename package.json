@@ -1,0 +1,20 @@
+{
+  "name": "mybabel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "babel-node": "babel-node ./src/register.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.9.5"
+  }
+}
